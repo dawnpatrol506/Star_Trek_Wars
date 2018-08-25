@@ -1,0 +1,59 @@
+body, html{
+    height: 100%;
+}
+
+.card{
+    opacity: 1;
+    width: 260px;
+    margin-right: 1%;
+}
+
+.card-img{
+    height: 200px;
+}
+
+.sizer{
+    height: 100px;;
+}
+
+.bg{
+    background-image: url("/assets/images/bg.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.container{
+    z-index: 1;
+}
+
+.row{
+    margin-bottom: 20px;
+    width: 100%;
+    align-content: center;
+}
+
+.vs{
+    color: yellow;
+    font-size: 6em;
+}
+
+.versus{
+    line-height: 100px;
+}
+
+div{
+    align-content: center;
+    text-align: center;
+}
+
+.col-4{
+    text-align: center;
+    align-content: center;
+}
+
+button{
+    font-size: 2em;
+}
